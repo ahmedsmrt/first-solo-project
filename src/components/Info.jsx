@@ -5,6 +5,7 @@ const InfoStyles = styled.div`
 
     img {
         width: 317px;
+        height: 317px;
     }
 
 `
@@ -14,7 +15,7 @@ export default function Info() {
   return (
     <InfoStyles>
         <div>
-            <img src="https://images.pexels.com/photos/3153203/pexels-photo-3153203.jpeg?cs=srgb&dl=pexels-canva-studio-3153203.jpg&fm=jpg" alt="" />
+            <img src="https://images.pexels.com/photos/11871114/pexels-photo-11871114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
         </div>
     </InfoStyles>
   )
