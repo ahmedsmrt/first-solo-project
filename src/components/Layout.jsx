@@ -14,11 +14,14 @@ const GlobalStyles = createGlobalStyle`
 
   
 body {
-  margin: 0;
+    padding: 0;
+  margin: 0 auto;
+  box-sizing: border-box;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  width: 100vw;
 }
 
 h1 {
@@ -26,13 +29,18 @@ h1 {
   line-height: 1.1;
 }
 
+.content {
+    width: 100vw;
+    border-radius: 10px;
+
+}
 
 main {
-    max-width: 317px;
-    border: 1px solid #fff;
+    width: 317px;
     min-height: 780px;
-    margin: 0 auto;
     border-radius: 10px;
+    background: #1A1B21;
+    margin: 0 auto;
 }
 
 
